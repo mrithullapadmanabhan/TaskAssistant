@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/notes_assistant
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+openai:
+  api:
+    key: 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
+groq:
+  api:
+    key: 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

@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/notes_assistant
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+openai:
+  api:
+    key: <OPENAI_API_KEY>
+groq:
+  api:
+    key: <GROQ_API_KEY>
